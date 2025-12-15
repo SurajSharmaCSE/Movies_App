@@ -8,7 +8,7 @@ export default class Banner extends Component {
         // let movie=''
         return (
             <>
-            {   movie === ''?
+            {   movie == ''?
                 <div className="spinner-border text-primary" role="status">
                     <span className="visually-hidden">Loading...</span>
                 </div>:

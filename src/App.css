@@ -74,7 +74,7 @@
 }
 
 .movies-card{
-  width: 15vw;
+  width: 20vw;
   margin: 1rem;
   color: white;
   position: relative;
@@ -91,9 +91,19 @@
   position: absolute;
   bottom: 2rem;
 }
+/* style={{height:'40vh',width:'20vw'}} */
 .movies-img{
-  height: 35vh;
-  width: 20wh;
+  height: 40vh;
+  width: 20vw;
+}
+
+.favourites-genres{
+  padding: 3rem;
+}
+
+.favourites-table{
+  padding: 3rem;
+  overflow: auto;
 }
 
 @media screen and (max-width:400px){
